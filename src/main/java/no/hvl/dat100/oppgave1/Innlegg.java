@@ -8,10 +8,10 @@ public abstract class Innlegg {
 	
     //a)
 
-	private int id = 2;
-    private String bruker;
-    private String dato;
-    int likes;
+	protected int id = 2;
+    protected String bruker;
+    protected String dato;
+    protected int likes;
 
 	public Innlegg() {
 		
